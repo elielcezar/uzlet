@@ -58,8 +58,6 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
           </div><!-- carousel -->
-
-
           </div>
       </div><!-- row -->
     </div><!-- container -->      
@@ -79,33 +77,35 @@
             <?php endif; ?> 
       
     </div><!-- container --> 
-
     
     <div class="container sub escolha-aparelho">
         <div class="row"> 
             <div class="col-sm-12">
                 <!--h3>Que tipo de aparelho você possui?</h3-->
             </div>
-            <div class="col-sm-4 ">
+            <!--div class="col-sm-4 ">
                 <div class="venda-iphone box">                      
                     <div class="img-expo"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzlet2014/images/iphone_expo.jpg"  /></div>
                     <span class="venda">Vender iPhone</span>
                     <strong>Iphones 4 em diante, <br />nacionais ou importados</strong>
                 </div>  
-            </div><!--venda-ihpone-->
+            </div>
             <div class="col-sm-4">
                 <div class="venda-smartphone box">
                     <div class="img-expo"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzlet2014/images/smartphone_expo.jpg" /></div>
                     <span class="venda">Vender Smartphone</span>
                     <strong>Em qualquer estado de uso, <br />bloqueados ou não</strong>
                 </div>  
-            </div> <!--venda-smartphone-->
+            </div-->
+            <div class="col-sm-8">
+                <a href="http://shop.uzlet.com.br/"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzlet2014/images/venda.jpg" style="img-responsive" /></a>
+            </div>
             <div class="col-sm-4">
                 <div class="compra-aparelhos box">
                     <div class="img-expo"><img src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzlet2014/images/smartphones.jpg" /></div>
-                    <span class="venda">Comprar Aparelhos</span>
+                    <a class="compra" href="http://shop.uzlet.com.br/" target="_blank">Comprar Aparelhos</a>
                     <strong>Adquira um smartphone semi-novo revisado pela nossa equipe técnica.</strong>
-                    <img class="faixa" src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzlet2014/images/embreve.png" />
+                    <!--img class="faixa" src="<?php print $GLOBALS['base_path']; ?>sites/all/themes/uzlet2014/images/embreve.png" /-->
                 </div>  
             </div> <!--venda-smartphone-->
       </div><!-- row -->
@@ -205,16 +205,13 @@
         </div>
     </div>
   </div>   <!-- modelos disponiveis -->
-
   <div class="container">
     <div class="row">                       
         <div class="col-sm-8">
                 <div class="avaliacoes">                  
                       <h3>O Que Dizem Nossos Clientes</h3>
-
                        <div id="carousel-depoimentos" class="carousel slide" data-ride="carousel">                      
                           <!-- Wrapper for slides -->            
-
                           <?php print views_embed_view('depoimentos_home', 'block_1'); ?>
                          
                           <!-- Controls -->
@@ -225,10 +222,6 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                           </a>
                     </div><!-- carousel -->
-
-
-
-
                 </div><!-- avaliacoes -->
           </div>
           <div class="col-sm-4">
@@ -238,9 +231,6 @@
           </div>
       </div>
     </div>
-
-
-
 </div><!-- principal -->
 <section class="sobre">
     <div class="container"> 
